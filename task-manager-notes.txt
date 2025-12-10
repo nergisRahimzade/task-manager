@@ -1,0 +1,21 @@
+body -> index.css
+root -> App.css & *index.css
+
+---button
+---text field
+---checkbox
+---select / dropdown / ---radios / switch
+card
+---list ( & related list-item components )
+**table / data-display components -> data table & sorting and selecting & sticky header & collapsible table
+***layout / grid / container components
+feedback / informational components -> ***(snackbar & alert)
+
+TO NOTE
+--------
+indeterminate checkboxes not working
+slotProps
+advantages of using controlled checkbox
+what is "event: React.ChangeEvent<THMLInputElement> -> event.target.checked"
+what is sx={}
+learn the logic of handleToggle() in CheckboxLists.tsx
